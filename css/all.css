@@ -1,0 +1,555 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.h1 {
+  font-size: 80px;
+}
+
+.h2 {
+  font-size: 64px;
+}
+
+.fs-1 {
+  font-size: 24px;
+}
+
+.fs-2 {
+  font-size: 20px;
+}
+
+.fw-medium {
+  font-weight: medium;
+}
+
+.fw-bold {
+  font-weight: bold;
+}
+
+.fw-black {
+  font-weight: 900;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.mt-4 {
+  margin-top: 4px;
+}
+
+.mt-8 {
+  margin-top: 8px;
+}
+
+.mt-12 {
+  margin-top: 12px;
+}
+
+.mt-16 {
+  margin-top: 16px;
+}
+
+.mt-20 {
+  margin-top: 20px;
+}
+
+.mt-24 {
+  margin-top: 24px;
+}
+
+.mt-28 {
+  margin-top: 28px;
+}
+
+.mt-32 {
+  margin-top: 32px;
+}
+
+.mt-40 {
+  margin-top: 40px;
+}
+
+.mt-48 {
+  margin-top: 48px;
+}
+
+.mt-56 {
+  margin-top: 56px;
+}
+
+.mt-68 {
+  margin-top: 68px;
+}
+
+.mt-144 {
+  margin-top: 144px;
+}
+
+.mt-160 {
+  margin-top: 160px;
+}
+
+.pt-4 {
+  padding-top: 4px;
+}
+
+.pt-8 {
+  padding-top: 8px;
+}
+
+.pt-12 {
+  padding-top: 12px;
+}
+
+.pt-16 {
+  padding-top: 16px;
+}
+
+.pt-20 {
+  padding-top: 20px;
+}
+
+.pt-24 {
+  padding-top: 24px;
+}
+
+.pt-28 {
+  padding-top: 28px;
+}
+
+.pt-32 {
+  padding-top: 32px;
+}
+
+.pt-40 {
+  padding-top: 40px;
+}
+
+.pt-48 {
+  padding-top: 48px;
+}
+
+.pt-56 {
+  padding-top: 56px;
+}
+
+.pt-68 {
+  padding-top: 68px;
+}
+
+.pt-144 {
+  padding-top: 144px;
+}
+
+.pt-160 {
+  padding-top: 160px;
+}
+
+.me-4 {
+  margin-right: 4px;
+}
+
+.me-8 {
+  margin-right: 8px;
+}
+
+.me-12 {
+  margin-right: 12px;
+}
+
+.me-16 {
+  margin-right: 16px;
+}
+
+.me-20 {
+  margin-right: 20px;
+}
+
+.me-24 {
+  margin-right: 24px;
+}
+
+.me-28 {
+  margin-right: 28px;
+}
+
+.me-32 {
+  margin-right: 32px;
+}
+
+.me-40 {
+  margin-right: 40px;
+}
+
+.me-48 {
+  margin-right: 48px;
+}
+
+.me-56 {
+  margin-right: 56px;
+}
+
+.me-68 {
+  margin-right: 68px;
+}
+
+.me-144 {
+  margin-right: 144px;
+}
+
+.me-160 {
+  margin-right: 160px;
+}
+
+.pe-4 {
+  padding-right: 4px;
+}
+
+.pe-8 {
+  padding-right: 8px;
+}
+
+.pe-12 {
+  padding-right: 12px;
+}
+
+.pe-16 {
+  padding-right: 16px;
+}
+
+.pe-20 {
+  padding-right: 20px;
+}
+
+.pe-24 {
+  padding-right: 24px;
+}
+
+.pe-28 {
+  padding-right: 28px;
+}
+
+.pe-32 {
+  padding-right: 32px;
+}
+
+.pe-40 {
+  padding-right: 40px;
+}
+
+.pe-48 {
+  padding-right: 48px;
+}
+
+.pe-56 {
+  padding-right: 56px;
+}
+
+.pe-68 {
+  padding-right: 68px;
+}
+
+.pe-144 {
+  padding-right: 144px;
+}
+
+.pe-160 {
+  padding-right: 160px;
+}
+
+.mb-4 {
+  margin-bottom: 4px;
+}
+
+.mb-8 {
+  margin-bottom: 8px;
+}
+
+.mb-12 {
+  margin-bottom: 12px;
+}
+
+.mb-16 {
+  margin-bottom: 16px;
+}
+
+.mb-20 {
+  margin-bottom: 20px;
+}
+
+.mb-24 {
+  margin-bottom: 24px;
+}
+
+.mb-28 {
+  margin-bottom: 28px;
+}
+
+.mb-32 {
+  margin-bottom: 32px;
+}
+
+.mb-40 {
+  margin-bottom: 40px;
+}
+
+.mb-48 {
+  margin-bottom: 48px;
+}
+
+.mb-56 {
+  margin-bottom: 56px;
+}
+
+.mb-68 {
+  margin-bottom: 68px;
+}
+
+.mb-144 {
+  margin-bottom: 144px;
+}
+
+.mb-160 {
+  margin-bottom: 160px;
+}
+
+.pb-4 {
+  padding-bottom: 4px;
+}
+
+.pb-8 {
+  padding-bottom: 8px;
+}
+
+.pb-12 {
+  padding-bottom: 12px;
+}
+
+.pb-16 {
+  padding-bottom: 16px;
+}
+
+.pb-20 {
+  padding-bottom: 20px;
+}
+
+.pb-24 {
+  padding-bottom: 24px;
+}
+
+.pb-28 {
+  padding-bottom: 28px;
+}
+
+.pb-32 {
+  padding-bottom: 32px;
+}
+
+.pb-40 {
+  padding-bottom: 40px;
+}
+
+.pb-48 {
+  padding-bottom: 48px;
+}
+
+.pb-56 {
+  padding-bottom: 56px;
+}
+
+.pb-68 {
+  padding-bottom: 68px;
+}
+
+.pb-144 {
+  padding-bottom: 144px;
+}
+
+.pb-160 {
+  padding-bottom: 160px;
+}
+
+.bg-black {
+  background-color: black;
+}
+
+.text-black {
+  color: black;
+}
+
+.bg-white {
+  background-color: white;
+}
+
+.text-white {
+  color: white;
+}
+
+.justify-content-center {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.justify-content-between {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.d-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.flex-wrap {
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.gap-24 {
+  gap: 24px;
+}
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: "Roboto", "Noto Sans TC", sans-serif;
+  line-height: 1.5;
+  font-style: italic;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.header {
+  background-image: url("../img/banner.png");
+  background-size: cover;
+  background-position: center;
+  height: 958px;
+  background-repeat: no-repeat;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  color: #ffffff;
+}
+
+.banner {
+  max-width: 304px;
+  margin: 0 auto;
+}
+
+.icon-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  gap: 16px;
+}
+.icon-list a:hover {
+  opacity: 0.8;
+}
+
+.about {
+  max-width: 412px;
+  margin: 0 auto;
+}
+
+.about-border {
+  border-bottom: 1px solid #000;
+}
+
+.list-icon {
+  display: inline-block;
+  background-color: #891818;
+  width: 22px;
+  height: 22px;
+  border-radius: 50px;
+  margin-right: 16px;
+}
+
+footer {
+  padding: 64px;
+}
+footer a {
+  color: white;
+  text-decoration: none;
+}
+footer a:hover {
+  opacity: 0.8;
+}/*# sourceMappingURL=all.css.map */
